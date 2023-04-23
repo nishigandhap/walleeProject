@@ -139,5 +139,5 @@ allure open
 
 ## Git clone
 ```
-git clone 
+git clone https://github.com/nishigandhap/walleeProject
 ```
