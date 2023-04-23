@@ -1,0 +1,16 @@
+{
+  "name": "walleeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run cypress/e2e/PageClass/*.js --headed --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "reportTest": "npm run test && npm run allure:report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.10.0"
+  }
+}
