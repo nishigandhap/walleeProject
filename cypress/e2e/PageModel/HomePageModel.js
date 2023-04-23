@@ -29,8 +29,8 @@ class HomePage {
                     } else {
                         expect(status).to.eq(400)
                     }
+                    expect(link.prop('href')).to.exist
                 })
-                expect(link.prop('href')).to.exist
             }
         })
     }
@@ -187,8 +187,6 @@ class HomePage {
     }
 
 }
-
-
 
 export default HomePage;
 
