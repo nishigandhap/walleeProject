@@ -137,7 +137,8 @@ To open the allure report, type below command.
 ```
 allure open
 
-## Git clone
+**Git clone**
+
 ```
 git clone https://github.com/nishigandhap/walleeProject
 ```
